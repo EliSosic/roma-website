@@ -28,8 +28,21 @@ h2 {
 .legend-container {
     display: grid;
     grid-template-columns: 1px 2px;
+
 }
+
 
 .romolo-remo-img {
     max-width: 300px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: 1px 1px 1px;
+}
+
+.photo-gallery-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
 }
