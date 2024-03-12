@@ -1,0 +1,26 @@
+body{
+    font-family: Marriweather;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/media/main-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0px;
+   
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+}
