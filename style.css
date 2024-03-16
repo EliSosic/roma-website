@@ -95,6 +95,10 @@ footer li {
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .romolo-remo-img {
     max-width: 100%;    
 }
@@ -113,8 +117,6 @@ footer li {
     margin: 0 auto;
     max-width: 100px;
 }
-
-
 
 .roma-map {
     max-width: 1200px;
@@ -149,6 +151,10 @@ footer li {
     }
 
     .grid-2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3-col {
         grid-template-columns: 1fr;
     }
     
