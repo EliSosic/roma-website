@@ -6,7 +6,6 @@ body{
 }
 
 header {
-    max-width: 1200px;
     margin: 0 auto;
     background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url("/media/main-background.png");
     background-size: cover;
@@ -29,13 +28,14 @@ h2 {
 }
 
 h3 {
-    margin-top: 0;
+    margin: 0;
     font-size: 40px;
 }
 
 h4 {
     font-size: 18px;
     margin-bottom: 10px;
+   
 }
 
 p {
@@ -43,12 +43,12 @@ p {
 }
 
 main {
-    background-color: rgba(31, 31, 31, 0.885);
+    background-color: rgba(31, 31, 31, 0.518);
 }
 
 section {
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px;
 }
 
 footer {
@@ -57,6 +57,7 @@ footer {
     background-size: cover;
     padding: 20px;
     margin: 0 auto;
+    max-width: 1350px;
 
 }
 
@@ -153,14 +154,33 @@ footer li {
 
     h3 {
         margin-top: 0;
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 16px;
     }
     
     section {
         padding: 25px;
     }
 
-   
+    footer {
+        padding-top: 0;
+    }
+
+    .card a {
+        background-color: white;
+        color: black;
+        padding: 4px 12px;
+        text-decoration: none;
+        border-radius: 4px;
+        
+    }
 
     .grid {
         display: grid;
