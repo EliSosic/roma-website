@@ -57,8 +57,7 @@ footer {
     background-size: cover;
     padding: 20px;
     margin: 0 auto;
-    max-width: 1350px;
-
+    max-width: 100%;
 }
 
 footer a {
@@ -69,6 +68,7 @@ footer a {
 footer a:hover {
     color: white;
 }
+
 
 footer ul {
     padding: 0;
@@ -82,7 +82,7 @@ footer li {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -173,6 +173,21 @@ footer li {
         padding-top: 0;
     }
 
+    footer h4 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+
+
     .card a {
         background-color: white;
         color: black;
@@ -186,16 +201,9 @@ footer li {
         display: grid;
         grid-gap: 30px;
         padding: 25px;
+        grid-template-columns: 1fr
     }
 
-    .grid-2-col {
-        grid-template-columns: 1fr;
-    }
-
-    .grid-3-col {
-        grid-template-columns: 1fr;
-    }
-    
     .grid-3-col-photo-gallery {
         grid-template-columns: 1fr 1fr;
     }
@@ -203,8 +211,5 @@ footer li {
     .grid-p {
         margin-top: 0px;
     }
-
-
-
-    
+  
 }
