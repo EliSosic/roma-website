@@ -140,6 +140,10 @@ footer li {
         margin-top: 0;
         font-size: 20px;
     }
+    
+    section {
+        padding: 25px;
+    }
 
     .grid {
         display: grid;
