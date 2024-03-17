@@ -48,7 +48,7 @@ main {
 
 section {
     margin: 0 auto;
-    padding: 60px;
+    padding: 30px 60px 0px 60px;
 }
 
 footer {
@@ -166,7 +166,7 @@ footer li {
     }
     
     section {
-        padding: 25px;
+        padding: 25px 25px 0px 25px;
     }
 
     footer {
